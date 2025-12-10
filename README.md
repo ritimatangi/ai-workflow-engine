@@ -66,12 +66,12 @@ uvicorn app.main:app --reload
 This will start the API at:
 
 arduino
-Copy code
+
 http://localhost:8000
 Open API Documentation (Swagger UI)
 You can test all APIs using the automatically generated docs:
 
-👉 http://localhost:8000/docs
+ http://localhost:8000/docs
 
 This page shows the endpoints:
 
@@ -81,22 +81,6 @@ POST /graph/run
 
 GET /graph/state/{run_id}
 
-These APIs allow you to create, run, and inspect your workflow engine.
 
-yaml
-Copy code
 
----
 
-# 📌 Where to paste?
-
-1. Open your README.md  
-2. Scroll to the bottom (after `pip install -r requirements.txt`)  
-3. Paste the above block  
-4. Click **Commit changes**
-
----
-
-# 🎉 After this, your README is complete and looks exactly like what companies expect.
-
-If you want, I can check your README after you paste it.
